@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A15075D9-B64C-4E9D-B862-82D17DCD0293}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A15075D9-B64C-4E9D-B862-82D17DCD0293}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Cyberpunk_Street_Bed" ID="{532491CF-DE04-42D8-B978-B1AA86509DD9}">
+					<ChildrenList>
+						<Action Name="" ID="{E3CDF37D-B35A-4EE8-81CF-0AE75E1EF79F}" ShortID="803115549">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bed_cyberpunk_street_60s" ID="{C1002DF8-0F35-415E-B48E-CE1D124312B3}" WorkUnitID="{972608EF-5E7E-43A5-8399-F4CA918CBD91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cyberpunk_Street_Random" ID="{5BB67C1A-9604-4832-A6B0-1338BA625D79}">
+					<ChildrenList>
+						<Action Name="" ID="{F0B3F367-C553-454B-8F61-474454D9BB82}" ShortID="635672994">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cyberpunk_Street_Random" ID="{144B6A1D-FFCC-4646-B031-8CE918BAFE9E}" WorkUnitID="{972608EF-5E7E-43A5-8399-F4CA918CBD91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

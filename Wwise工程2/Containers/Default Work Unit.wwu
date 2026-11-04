@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{972608EF-5E7E-43A5-8399-F4CA918CBD91}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{972608EF-5E7E-43A5-8399-F4CA918CBD91}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Cyberpunk_Street_Random" ID="{144B6A1D-FFCC-4646-B031-8CE918BAFE9E}" ShortID="648339980">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Cyberpunk_Street_Atten" ID="{E606B845-2D9F-46A4-85F3-70DDBF7B7014}" WorkUnitID="{78382F65-396B-44F1-80E8-1C36C938D447}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="one_shot_hovercar_flyby" ID="{589EF021-2536-441A-AD50-735AEF9D50BB}" ShortID="178914278">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="one_shot_hovercar_flyby" ID="{B5B8B855-06FE-4A96-AEE4-1034156EE7E0}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_hovercar_flyby.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="10371996"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="one_shot_hovercar_flyby_01" ID="{FE69BC1D-34DF-41DC-8AF7-42C4F3118A91}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_hovercar_flyby.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="10371996"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="one_shot_hovercar_flyby_01" ID="{FE69BC1D-34DF-41DC-8AF7-42C4F3118A91}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="one_shot_hovercar_pass" ID="{A54AA6D9-3C60-415E-9AC1-85EEF0285CAC}" ShortID="610366960">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="one_shot_hovercar_pass" ID="{D8BD5AFB-57E2-4A90-B92D-369B2A7884E6}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_hovercar_pass.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="257667462"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="one_shot_hovercar_pass_01" ID="{78D371AD-2920-493D-A8BF-FE8980A7776D}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_hovercar_pass.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="257667462"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="one_shot_hovercar_pass_01" ID="{78D371AD-2920-493D-A8BF-FE8980A7776D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="one_shot_siren_far" ID="{56B241F8-FDCC-474E-8AC4-4AB1DBCB103B}" ShortID="15042491">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="one_shot_siren_far" ID="{C5F936DE-FC68-4503-98A6-1902F0704FC5}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_siren_far.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="459191233"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="one_shot_siren_far_01" ID="{70D6DBED-16FC-4A57-9B69-D35A8F6C1702}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_siren_far.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="459191233"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="one_shot_siren_far_01" ID="{70D6DBED-16FC-4A57-9B69-D35A8F6C1702}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="one_shot_footsteps_walk" ID="{0DD2F040-14AD-4934-9A32-382FAFD594A8}" ShortID="993433704">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="one_shot_footsteps_walk" ID="{5E7D6902-4E75-4E64-87BE-443C3B8AB1EB}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_footsteps_walk.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="5219892"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="one_shot_footsteps_walk_01" ID="{3F41F475-DD28-4D64-B3DC-F536A85E8604}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_footsteps_walk.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="5219892"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="one_shot_footsteps_walk_01" ID="{3F41F475-DD28-4D64-B3DC-F536A85E8604}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="one_shot_footsteps_run" ID="{0E1F9EE8-6452-40CB-AF4F-E6D58488E3FB}" ShortID="501120718">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="one_shot_footsteps_run" ID="{47F44BD7-1F4D-493B-89E5-5F643609575A}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_footsteps_run.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="555832886"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="one_shot_footsteps_run_01" ID="{28FC8919-EE52-457C-8BC5-AC7B74D45611}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_footsteps_run.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="555832886"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="one_shot_footsteps_run_01" ID="{28FC8919-EE52-457C-8BC5-AC7B74D45611}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="one_shot_hologram_blip" ID="{E9F461D8-7F9E-4546-A5C3-97B4B932EA4A}" ShortID="519269106">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="one_shot_hologram_blip" ID="{E15A3448-1C28-4F3A-BBD7-F48A86B70CCB}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_hologram_blip.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="152226457"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="one_shot_hologram_blip_01" ID="{4C824CFB-99FA-48EF-826D-001C99B16478}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_hologram_blip.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="152226457"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="one_shot_hologram_blip_01" ID="{4C824CFB-99FA-48EF-826D-001C99B16478}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="one_shot_distant_rumble" ID="{B9774006-FA75-4D40-B70D-C9274767A72E}" ShortID="181812215">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="one_shot_distant_rumble" ID="{3280932E-F76B-47AC-9A5D-E9DAEF63FAE6}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_distant_rumble.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="697521781"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="one_shot_distant_rumble_01" ID="{876CF87F-6A9B-4815-A43A-DF6789409D95}">
+									<Language>SFX</Language>
+									<AudioFile>one_shot_distant_rumble.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="697521781"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="one_shot_distant_rumble_01" ID="{876CF87F-6A9B-4815-A43A-DF6789409D95}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="bed_cyberpunk_street_60s" ID="{C1002DF8-0F35-415E-B48E-CE1D124312B3}" ShortID="294501832">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A662D0A7-4583-488D-BCC0-AF59F5BC0981}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4413C853-0CC0-45C5-AD39-6CA1706BD899}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bed_cyberpunk_street_60s" ID="{07DF9D9A-EEBB-4DA2-9BAF-6708189C2DC1}">
+							<Language>SFX</Language>
+							<AudioFile>bed_cyberpunk_street_60s.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="238988820"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="bed_cyberpunk_street_60s_01" ID="{F69BDD45-D74A-4FB4-88B4-D1482C21A162}">
+							<Language>SFX</Language>
+							<AudioFile>bed_cyberpunk_street_60s.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="238988820"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="bed_cyberpunk_street_60s_01" ID="{F69BDD45-D74A-4FB4-88B4-D1482C21A162}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

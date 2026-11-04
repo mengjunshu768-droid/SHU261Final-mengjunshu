@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47F0A1B9-0C69-400E-83C3-A687C22EC568}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{47F0A1B9-0C69-400E-83C3-A687C22EC568}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{A0318BC4-B132-4AA2-B061-F9EA29A72170}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Cyberpunk_Street_Bed" ID="{532491CF-DE04-42D8-B978-B1AA86509DD9}" WorkUnitID="{A15075D9-B64C-4E9D-B862-82D17DCD0293}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Cyberpunk_Street_Random" ID="{5BB67C1A-9604-4832-A6B0-1338BA625D79}" WorkUnitID="{A15075D9-B64C-4E9D-B862-82D17DCD0293}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
